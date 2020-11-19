@@ -1,0 +1,17 @@
+<div id="main">
+<div appAddChild id="child1">
+child1
+</div>
+<div id="child2">
+child2
+</div>
+</div>
+
+<h1>using  Render2 without directive in component level</h1>
+
+<div  #child1>
+child1
+</div>
+<app-app-child>
+  <p #childContent>i am content child </p> //Access this childContent from chid component
+</app-app-child>
